@@ -1,0 +1,8 @@
+# Function to add two numbers
+def add_numbers(a, b):
+    return a + b
+
+# Test cases
+print(f"Test Case 1: 5 + 3 = {add_numbers(5, 3)}")    # Expected output: 8
+print(f"Test Case 2: -2 + 9 = {add_numbers(-2, 9)}")  # Expected output: 7
+print(f"Test Case 3: 0 + 0 = {add_numbers(0, 0)}")    # Expected output: 0
